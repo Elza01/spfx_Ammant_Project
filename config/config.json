@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "tiles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tiles/TilesWebPart.js",
+          "manifest": "./src/webparts/tiles/TilesWebPart.manifest.json"
+        }
+      ]
+    },
+    "button-background-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/buttonBackground/ButtonBackgroundWebPart.js",
+          "manifest": "./src/webparts/buttonBackground/ButtonBackgroundWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "TilesWebPartStrings": "lib/webparts/tiles/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "ButtonBackgroundWebPartStrings": "lib/webparts/buttonBackground/loc/{locale}.js"
+  }
+}
