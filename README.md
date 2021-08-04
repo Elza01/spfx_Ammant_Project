@@ -54,6 +54,7 @@ Version|Date|Comments
   - npm install bootstrap@4 --save
   - npm install @types/bootstrap@4 --save -dev
   - npm install --save @fortawesome/fontawesome-free
+  - npm install tinycolor2
 
 ## Features
 
