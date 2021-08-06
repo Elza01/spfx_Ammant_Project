@@ -55,6 +55,8 @@ Version|Date|Comments
   - npm install @types/bootstrap@4 --save -dev
   - npm install --save @fortawesome/fontawesome-free
   - npm install tinycolor2
+  - npm install --save radium
+  - npm install auto-bind
 
 ## Features
 
